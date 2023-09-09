@@ -58,12 +58,12 @@ import re
 captcha = {
     "2 + 2 * 2": 6,
     "5 * 3 + 10": 25,
-    "20 - 7 * 2": 7,
+    "20 - 7 * 2": 6,
     "8 / 2 + 5": 9
 }
 captcha_aleatorio= random.choice(list(captcha.keys()))
 usuario = [
-    {"email/tel":"emmanuelq2005@gmail.com","password": "a123456789"}
+    {"email":"emmanuelq2005@gmail.com","password": "a123456789"}
 ]
 print("_____BIENVENIDO_____")
 print("")
